@@ -41,7 +41,7 @@ void day1::solvePuzzle1() {
 
     for (int i = 0; i < _v.size(); i++) {
         for (int j = 0; j < _v.size(); j++) {
-            if (_v[i] + _v[j] == 2020) {
+            if (_v[i] + _v[j] == 2020 && _v[i] != _v[j]) {
                 cout << "[!] Solution found: " << _v[i] * _v[j] << endl << endl;
                 return;
             }
