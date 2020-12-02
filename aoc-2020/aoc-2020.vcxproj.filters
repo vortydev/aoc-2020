@@ -21,9 +21,13 @@
     <ClInclude Include="vecteur.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
+    <ClInclude Include="day2.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="inputDay1.txt" />
+    <Text Include="inputDay2.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

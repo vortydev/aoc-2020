@@ -139,10 +139,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="day1.hpp" />
+    <ClInclude Include="day2.hpp" />
     <ClInclude Include="vecteur.hpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="inputDay1.txt" />
+    <Text Include="inputDay2.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
